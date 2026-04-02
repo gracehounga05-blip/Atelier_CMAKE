@@ -26,6 +26,9 @@ int main(int argc, char *argv[]){
 		r = _div(atof(a), atof(b));
 		printf("%lf",r);
 	}
+		else if (strcmp(argv[1], "car") == 0) {
+    printf("%d\n", car(atoi(argv[2])));
+}
 	else {printf("Erreur de parametres");}
 	}
 	else {printf("Erreur de parametres");}
